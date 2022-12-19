@@ -28,7 +28,7 @@ class ResultPage extends StatelessWidget {
         appBar: AppBar(
           centerTitle: true,
           title: Text(
-            'Reslut',
+            'Result',
             style: TextStyle(color: white),
           ),
         ),
