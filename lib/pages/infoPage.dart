@@ -247,7 +247,7 @@ class _InfoPageState extends State<InfoPage> {
                           return ResultPage(
                               age: age,
                               BMI:
-                                  int.parse(weight.text) / pow(height / 100, 2),
+                                  double.parse(weight.text) / pow(height / 100, 2),
                               male: gender);
                         }));
                       }
