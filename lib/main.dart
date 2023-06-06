@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'pages/infoPage.dart';
-import 'pages/resultPage.dart';
 
 void main() => runApp(MaterialApp(
     home: InfoPage(),
